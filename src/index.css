@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mycon {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.hero {
+  height: calc(100vh - 160px);
+}

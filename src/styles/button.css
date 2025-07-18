@@ -1,0 +1,50 @@
+.btn {
+  padding: 4px 10px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blur1 {
+  background-color: #ffffff4d;
+}
+
+.orange {
+  background-color: #f4796c;
+}
+
+.large {
+  width: 250px;
+  height: 40px;
+}
+
+/* .romb {
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  transform: skewX(20deg);
+} */
+
+.romb {
+  transform: skewX(-20deg);
+}
+
+.romb > * {
+  transform: skewX(20deg);
+}
+
+.medium {
+  width: 78px;
+  height: 26px;
+}
+
+.whiter {
+  border: 1px solid #b8c1cd;
+  border-radius: 3px;
+}
+
+.small {
+  min-width: 73px;
+  height: 26px;
+}
