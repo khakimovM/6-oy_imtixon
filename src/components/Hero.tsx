@@ -1,9 +1,7 @@
 import LeftHero from "../assets/Container.svg";
 import RightHero from "../assets/Containerright.svg";
 import Button from "./Button";
-import Avatar from "../assets/Vector(1).svg";
-import Kalendar from "../assets/Vector(2).svg";
-import Time from "../assets/Vector(3).svg";
+import Time from "./Time";
 
 const Hero = () => {
   return (
@@ -19,24 +17,7 @@ const Hero = () => {
           <h1 className="text-[#FFFFFF] text-center text-[28px] font-[700] w-[563px] flex justify-center">
             Mobile Apple Planning Big Mac Redesign ander Nigh HalfMacShare
           </h1>
-          <div className="flex items-center justify-between gap-[15px]">
-            <div className="flex items-center justify-between gap-[5px]">
-              <img src={Avatar} alt="person avatar" />
-              <h1 className="text-[13px] text-[#BACCE1] font-[600]">
-                BY ADMIN
-              </h1>
-            </div>
-            <div className="flex items-center justify-between gap-[5px]">
-              <img src={Kalendar} alt="person avatar" />
-              <h1 className="text-[13px] text-[#BACCE1] font-[600]">
-                27 AUGUST, 2024
-              </h1>
-            </div>
-            <div className="flex items-center justify-between gap-[5px]">
-              <img src={Time} alt="person avatar" />
-              <h1 className="text-[13px] text-[#BACCE1] font-[600]">20 MINS</h1>
-            </div>
-          </div>
+          <Time></Time>
         </div>
       </div>
       <div
@@ -50,24 +31,7 @@ const Hero = () => {
           <h1 className="text-[#FFFFFF] text-center text-[28px] font-[700] w-[563px] flex justify-center">
             How To Build A Magazine Layout With CSS Grid Areas
           </h1>
-          <div className="flex items-center justify-between gap-[15px]">
-            <div className="flex items-center justify-between gap-[5px]">
-              <img src={Avatar} alt="person avatar" />
-              <h1 className="text-[13px] text-[#BACCE1] font-[600]">
-                BY ADMIN
-              </h1>
-            </div>
-            <div className="flex items-center justify-between gap-[5px]">
-              <img src={Kalendar} alt="person avatar" />
-              <h1 className="text-[13px] text-[#BACCE1] font-[600]">
-                27 AUGUST, 2024
-              </h1>
-            </div>
-            <div className="flex items-center justify-between gap-[5px]">
-              <img src={Time} alt="person avatar" />
-              <h1 className="text-[13px] text-[#BACCE1] font-[600]">20 MINS</h1>
-            </div>
-          </div>
+          <Time></Time>
         </div>
       </div>
     </section>

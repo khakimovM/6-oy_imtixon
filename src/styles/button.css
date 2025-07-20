@@ -46,5 +46,6 @@
 
 .small {
   min-width: 73px;
+  max-width: 100px;
   height: 26px;
 }
