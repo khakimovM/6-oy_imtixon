@@ -28,7 +28,7 @@ import RacingTop from "../assets/Container(21).svg";
 const Today = () => {
   return (
     <section className="bg-[#FFFFFF] pt-[70px] ">
-      <div className="mycon h-[1272px] flex gap-[70px]">
+      <div className="mycon h-[1272px] flex gap-[70px] !w-[1320px]">
         <div className="left w-[920px] h-full px-[5px]">
           <div className=" relative">
             <Button
